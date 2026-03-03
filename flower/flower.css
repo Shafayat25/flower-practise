@@ -1,0 +1,54 @@
+.flower{
+    max-width: 100%;
+    background: rgba(229, 84, 115, 0.1);
+    margin: 0 auto;
+    gap: 97px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.flower-tittle{
+    font-size: 5rem;
+    font-weight:900;
+    color: rgba(39, 39, 39, 1);
+    text-align:left;
+    width: 700px;
+    height: 280px;
+    margin-left: 240px;
+    margin-top: 197px;
+    margin-bottom: 30px;
+
+}
+.flower-description{
+    font-size: 1.3rem;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 30px;
+    width: 634px;
+    height: 90px;
+    margin-left: 240px;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 43px;
+    background: rgba(229, 84, 115, 1);
+    margin-left: 240px;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 179px;
+    height: 64px;
+
+}
+button:hover{
+    background-color: cadetblue;
+    color: bisque;
+    cursor: pointer;
+    
+}
+.flower-img{
+    width: 635px;
+    height: 800px;
+    margin-right: 240px;
+}
