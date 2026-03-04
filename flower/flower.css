@@ -52,3 +52,63 @@ button:hover{
     height: 800px;
     margin-right: 240px;
 }
+/* feature-flower section starts here */
+.feature-container{
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-right: 600px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.feature-tittle{
+    font-size: 2.4rem;
+    font-weight:800;
+    color: rgba(39, 39, 39, 1);
+    width: 392px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+.feature-description{
+    font-size: 1.2rem;
+    color: rgba(39, 39, 39, 0.6);
+    width: 594px;
+    height: 60px;
+}
+/* card section starts here */
+.feature-card{
+    max-width: 1440px;
+    height: 608px;
+    margin-top: 48px;
+    margin-left: 240px;
+    margin-right: 240px;
+   
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.card-1{
+    border: 1px solid white;
+    /* box-sizing: border-box; */
+    /* border-top: 27px;
+    border-bottom: 62px; */
+    border-radius: 300px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 500px;
+    /* align-items: center;
+    justify-self: center; */
+}
+.card-1 img{
+    padding: 100px 76px;
+    width: 310px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
