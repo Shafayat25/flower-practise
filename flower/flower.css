@@ -81,6 +81,7 @@ button:hover{
     margin-top: 48px;
     margin-left: 240px;
     margin-right: 240px;
+    margin-bottom: 120px;
    
     /* display: flex; */
     /* justify-content: center;
@@ -175,3 +176,89 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+/* delivery section starts here */
+.delivery{
+    width: 1440px;
+    height: 320px;
+    background: rgba(39, 39, 39, 0.05);
+    border: 2px solid wheat;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.delivery-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    padding: 86px 175px 87px 175px;
+}
+.delivery-card-1{
+    width: 373px;
+    height: 147px;
+    /* margin-left: 175px; */
+    
+    
+}
+.delivery-card-1 img{
+    width: 88px;
+    height: 88px;
+    /* margin-top: 86px; */
+    margin-bottom: 5px;
+}
+.delivery-card-1 h6{
+    width: 372px;
+    height: 35px;
+    /* text-align: center; */
+    font-size: 1.4rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: rgba(39, 39, 39, 0.8);
+    /* margin-left: 175px; */
+}
+.delivery-card-2{
+     width: 373px;
+    height: 147px;
+}
+.delivery-card-2 img{
+    width: 88px;
+    height: 88px;
+    /* margin-top: 86px; */
+    margin-bottom: 5px;
+}
+.delivery-card-2 h6{
+     width: 372px;
+    height: 35px;
+    /* text-align: center; */
+    font-size: 1.4rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: rgba(39, 39, 39, 0.8);
+    /* margin-left: 175px; */
+}
+.delivery-card-3{
+       width: 373px;
+    height: 147px;
+}
+.delivery-card-3 img{
+     width: 88px;
+    height: 88px;
+    /* margin-top: 86px; */
+    margin-bottom: 5px;
+}
+.delivery-card-3 h6{
+      width: 372px;
+    height: 35px;
+    /* text-align: center; */
+    font-size: 1.4rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: rgba(39, 39, 39, 0.8);
+    /* margin-left: 175px; */
+}
+
+
+
