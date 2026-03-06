@@ -41,6 +41,7 @@
     height: 64px;
 
 }
+/* button:hover class ta joto button ache sobgulo ke write korbe,so sob button e hover hocche. */
 button:hover{
     background-color: cadetblue;
     color: bisque;
@@ -259,6 +260,202 @@ button:hover{
     color: rgba(39, 39, 39, 0.8);
     /* margin-left: 175px; */
 }
+/* deal section starts here */
+.deal{
+    /* deal section er width 1922px er jaigai 1440px dhorte holo karon full web er width ache 1440px */
+    width: 1440px;
+    height: 450px;
+    margin: 0 auto;
+    background: rgba(229, 84, 115, 0.05);
+    border: 2px solid wheat;
+    border-radius: 8px;
+    margin-top: 128px;
+}
+.deal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.deal-info{
+    padding: 100px 100px;
+}
+.deal-container h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: rgba(39, 39, 39, 1);
+    width: 534px;
+    height: 48px;
+}
+.off{
+    color: rgba(229, 84, 115, 1);
+}
+.deal-container p{
+    font-size: 1.2rem;
+    color: rgba(39, 39, 39, 0.6);
+    width: 594px;
+    height: 64px;
+}
+/* button ta class deya hoyeche (btn,primary) */
+.btn-primary-2{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 43px;
+    background: rgba(229, 84, 115, 1);
+    /* margin-left: 240px; */
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 179px;
+    height: 64px;
+
+}
+
+.deal-img{
+    width: 318px;
+    height: 400px;
+}
+/* insta section starts here */
+.insta{
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.insta-container{
+    /* ekhane justify-content and align-items property sudhu h2 er jonno kaj korche, ar p/text take center korar jonno text-align use kora hoyeche */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .insta-info h2{
+    /* first width and height er karone .insta te margin:0 auto; deyar por o h2 ta center hoini and tarjonno text-align: deyar por kaj holo */
+    /* width: 180px;
+    height: 48px; */
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: rgba(39, 39, 39, 1);
+    text-align: center;
+}
+.insta-info p{
+    font-size: 1.2rem;
+    color: rgba(39, 39, 39, 0.6);
+    /* width: 594px;
+    height: 60px; */
+    text-align: center;
+}
+.insta-flower{
+    margin-left: 240px;
+}
+.insta-flower .insta-img{
+    gap: 24px;
+    width: 340px;
+    height: 390px;
+    display: flex;   
+}
+/* discount section starts here */
+.discount{
+   margin-top: 128px;
+   background-image:url("../images/Rectangle\ 9.png");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* width: 100%; */
+   margin: 0 auto;
+   gap: 10px;
+  
+} 
+.discount-container{
+    justify-content: center;
+    align-items: center;
+}
+.discount h2{
+    font-size: 2.2rem;
+    font-weight: 800px;
+    width: 373px;
+    height: 48px;
+    color: rgba(39, 39, 39, 1);
+    margin-bottom: 16px;
+    
+}
+.discount p{
+    font-size: 1.3rem;
+    color:rgba(39, 39, 39, 0.6) ;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.email{
+    /* margin-left: 790px; */
+    width: 868px;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email input{
+    width: 864px;
+    height: 64px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(39, 39, 39, 0.6);
+    padding: 23px 510px 22px 22px;
+}
+.btn-primary-3{
+    font-weight: 600px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 43px;
+    background: rgba(229, 84, 115, 1);
+    /* margin-left: 240px; */
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 179px;
+    height: 64px;
+   
+
+}
+/* footer starts here */
+footer{
+   margin: 0 auto;
+    background-color: rgba(17, 16, 16, 1);
+    padding: 30px 30px;
+    
+  
+    
+}
+footer h2{
+    width: 259px;
+    height: 58px;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 831px;
+    
+}
+.Flower{
+    color: rgba(229, 84, 115, 1);
+}
+.Shop{
+    color: rgba(255, 255, 255, 1);
+}
+ .footer-description{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    width:625px;
+    height: 60px;
+    margin-left: 831px;
+ }
+ .copyright{
+    font-size:1.2rem;
+     color: rgba(255, 255, 255, 0.9);
+    width:357px;
+    height: 19px;
+     margin-left: 831px;
+ }
+
+
 
 
 
